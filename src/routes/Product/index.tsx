@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Header from "../../components/Header";
 import SectionProduct from "../../components/SectionProduct";
 
@@ -8,6 +9,7 @@ export default function Product() {
       <main>
         <section>
           <SectionProduct />
+          <Outlet />
         </section>
       </main>
     </>

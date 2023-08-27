@@ -10,7 +10,7 @@ export default function Header() {
         <div className="content-container">
           <nav className="navbar">
             <NavLink
-              to="/"
+              to="/home"
               className={({ isActive }) =>
                 isActive
                   ? "menu-item-header menu-active-product"
